@@ -12,4 +12,4 @@
 
 感谢对本项目贡献的同学：[Crzq](https://github.com/Crzq) [Qiavo](https://github.com/Qiavo)<br>
 <a title="Crzq" href="https://github.com/Crzq"><img src="https://avatars.githubusercontent.com/u/41958119?v=4" width="100" alt="profile picture of Crzq"></a>
-<a title="Qiavo" href="https://github.com/Qiavo"><img src="https://avatars.githubusercontent.com/u/100249240?v=4" width="100" alt="profile picture of Qiavo"></a>
+<a title="Canyou Qiavo" href="https://github.com/Qiavo"><img src="https://avatars.githubusercontent.com/u/100249240?v=4" width="100" alt="profile picture of Canyou Qiavo"></a>
