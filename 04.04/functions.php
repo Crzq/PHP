@@ -13,5 +13,4 @@ function random_text($count, $rm_similar = false) {
 	}
 	return $text;
 }	
-
 ?>

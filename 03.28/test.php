@@ -7,6 +7,7 @@
 	<title>Document</title>
 </head>
 <body>
-	
+我爱<script>document.write('学习');</script>
+
 </body>
 </html>
