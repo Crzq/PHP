@@ -16,7 +16,7 @@
 <body>
     <?php
     session_start();
-    if (isset($_SESSION['stuNo'])) {
+    if (!isset($_SESSION['stuNo'])) {
         header('Location:Login.php?frompage=StuResults');
     }
     ?>
