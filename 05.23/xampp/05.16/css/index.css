@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+#greeting {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}

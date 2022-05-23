@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../img/wp1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#box {
+    position: relative;
+    margin: 200px auto 100px;
+    padding-top: 40px;
+    padding-left: 70px;
+    width: 440px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+input {
+    display: block;
+    padding-left: 10px;
+    width: 360px;
+    height: 40px;
+    border: 1px solid rgb(220, 223, 230);
+    outline: none;
+    transition: 0.3s;
+    /* border-radius: 5px; */
+}
+input:focus {
+    border: 1px solid rgb(56, 142, 60);
+}
+
+#yzm {
+    position: absolute;
+    right: 80px;
+}
+
+button {
+    margin-top: 10px;
+    width: 360px;
+    height: 40px;
+    background-color: rgb(56, 142, 60);
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(76, 154, 80);
+}
+button:active {
+    background-color: rgb(96, 165, 99);
+}
