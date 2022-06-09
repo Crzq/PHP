@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    
+}
+
+table {
+    
+    border: 1px solid black;
+}
+
+tr th {
+    width: 200px;
+    border: 1px solid black;
+}
+tr td {
+    /* display: inline-block; */
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
+.checkbox {
+    width: 20px;
+}
