@@ -18,7 +18,9 @@
         $stuNo = $_POST["stuNo"];
         $pwd = $_POST["pwd"];
         require_once 'conn.php';
-        $sql = "SELECT * FROM `student` WHERE `studentNo` = '$stuNo' AND password = '$pwd'";
+        $db = new mysqli("localhost", "root", "123456", "qb");
+        $sql = "SELECT * FROM `student` WHERE `studentNo` = '$stuNo' AND `password` = '$pwd'";
+
         $result = $db -> query($sql);
         // if (!empty($_POST['stuNo']) == 'admin' && $_POST['pwd'] == "123456") {
         if ($result -> num_rows >= 1) {

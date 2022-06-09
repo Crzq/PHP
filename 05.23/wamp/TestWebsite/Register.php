@@ -19,7 +19,7 @@ include 'header.html';
         <input type="password" name="confirmPwd" placeholder="确认密码"/><br/>
 
         <label>班级：<select name="className">
-                <option value="-- 选择班级 --">-- 选择班级 --</option>
+                <option>-- 选择班级 --</option>
                 <option value="计网2001班">计网2001班</option>
                 <option value="计网2002班">计网2002班</option>
                 <option value="计应2001班">计应2001班</option>
