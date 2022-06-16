@@ -29,7 +29,7 @@ $db->query("SET NAMES utf8");
 
 //定义SQL语句，查询所有学生信息
 // $sql = "SELECT student.*,class.classname FROM student inner join class on student.classno=class.classno";
-$sql = "SELECT student.*,class.classname FROM student left join class on student.classno=class.classno";
+$sql = "SELECT student.*,class.classname FROM student inner join class on student.classno=class.classno";
 
 //执行SQL语句，返回结果，并用表格显示信息
 if ($result = $db->query($sql)) {
